@@ -7,8 +7,8 @@ def nyc_pigeon_organizer(data)
   data[:color].each do |(key, value)|
     value.each { |name| result[name][:color].push("#{key}")}
   end
-  data[:lives].each do |(key, value)|
-    value.each { |name| result[name][:lives].push("#{key}")}
+  data[:gender].each do |(key, value)|
+    value.each { |name| result[name][:liv].push("#{key}")}
   end
   print result
   result
