@@ -8,6 +8,6 @@ def nyc_pigeon_organizer(data)
     #value.each { |name| result[name][:color] << key.to_s}
     #memo
   #end
-  print result
+  #print result
   result
 end
