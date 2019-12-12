@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
  #end
   data[:color].each do |(key, value)|
     value.each { |name| result[name][:color].push("#{key}")}
+  end
   print result
   result
 end
