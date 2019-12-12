@@ -4,7 +4,8 @@ def nyc_pigeon_organizer(data)
   names = data[:gender][:male] + data[:gender][:female]
   result = Hash.new
   names.each { |name| result[name] = {:color => [], :gender => [], :lives => []}}
-  pigeon_data[:color].each do 
+  pigeon_data[:color].each do |memo, (key, value)|
+    
   print result
   result
 end
