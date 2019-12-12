@@ -3,5 +3,5 @@ def nyc_pigeon_organizer(data)
   result = {}
   names = data[:gender][:male] >> data[:gender][:female]
   result = Hash.new
-  names.each {
+  names.each { |name|
 end
